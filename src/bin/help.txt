@@ -1,0 +1,9 @@
+Usage
+  $ farewell-immutablejs <path> [transform] <...options>
+    path             Files or directory to transform. Can be a glob like src/**.test.js
+    transform        One specific transform to be run. If omitted, a list with all the transformations will be presented.
+Options
+  --force            Bypass Git safety checks and forcibly run codemods
+  --dry              Dry run (no changes are made to files)
+  --print            Print transformed files to your terminal
+  --jscodeshift      Pass options directly to jscodeshift
